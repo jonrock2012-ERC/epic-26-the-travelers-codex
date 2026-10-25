@@ -23,6 +23,7 @@ FILES
   data.js             window.BOOK (generated — do not hand-edit)
   cover.jpg           Cover Rev A2 front (chrome / brand mark)
   cover_splash.jpg    Cover Rev A2 1728×2304 (welcome splash)
+  plates/             per-chapter A2 heroes (one file each; 03/04/11 are storyboard panels)
   tools/build_data.py regenerates data.js from Draft 15 chapter files
   README.txt          this file
 

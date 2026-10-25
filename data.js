@@ -8,6 +8,7 @@ window.BOOK = {
       "id": "01",
       "number": "Chapter One",
       "title": "The Dust on the Road",
+      "image": "plates/01_dust_on_the_road_a2.jpg",
       "paragraphs": [
         "The dust came up off the road in the late light and hung there, gold at the top and gray where it met the ground, and it did not settle behind him so much as wait. He had been walking since the middle of the afternoon. His boots knew the shoulder by now, the crumbled lip of the asphalt and the loose gravel past it, and every step lifted a little more of the dust into the air, where it stayed a long time, as if the evening had nowhere better to put it.",
         "He was thirsty. He had been thirsty for an hour and had not stopped for it, and that was the first thing about the day that made no sense to him, because he was a man who stopped for water. Thirty-three years of night roads had taught him that much. You kept a jug behind the seat and a bottle in the door, and you drank before you wanted to, because the body lies about thirst until it can’t anymore. Now he had nothing. His mouth tasted of the road. When he swallowed, it was like swallowing the road.",
@@ -207,6 +208,7 @@ window.BOOK = {
       "id": "02",
       "number": "Chapter Two",
       "title": "The Sky That Broke",
+      "image": "plates/02_sky_that_broke_a2.jpg",
       "paragraphs": [
         "He did not cross it.",
         "He stood at the crack until the cool breath coming up out of it had chilled the backs of his hands, and then he turned around. He did not decide that either. He only found that he was facing east, toward the long rise he had come over and the dark fold of the creek beyond it, and that his feet had begun to carry him that way, back along the road, the way a horse turns for the barn at the end of a day whether the rider asks it to or not.",
@@ -381,6 +383,7 @@ window.BOOK = {
       "id": "03",
       "number": "Chapter Three",
       "title": "Atlantis and the Lost Song",
+      "image": "plates/sb3_panel_06_a2.jpg",
       "paragraphs": [
         "The bookcase stood just inside the door, where the gray light from the window fell across it, and it was the first thing he saw clearly when he turned from the glass.",
         "It was a plain pine case, homemade, five shelves high, and someone had painted it white a long time ago and someone else had painted it green over that, and the green had worn through at the edges of the shelves to show the white. It was full. Old hymnals with their spines gone soft. Farm almanacs. Seed catalogs, rolled and tied with string. A row of county plat books bound in red cloth. Children’s books, a whole shelf of them, the kind that turn up in boxes at the back of a church after a family moves away: picture books, an atlas with a cracked spine, a set of encyclopedias missing four volumes, a schoolbook of myths and legends with a painted ship on the cover.",
@@ -594,6 +597,7 @@ window.BOOK = {
       "id": "04",
       "number": "Chapter Four",
       "title": "The Prophets Who Remembered",
+      "image": "plates/sb3_panel_07_a2.jpg",
       "paragraphs": [
         "He called the yard at six the next morning, before he could think about it.",
         "The night man answered on the first ring, the way he always did, as if he slept with the phone in his hand. There was a silence on the line when he heard who it was. Then the night man said the name on the card, once, flatly, the way you would read a name off a list of people who had not shown up.",
@@ -837,6 +841,7 @@ window.BOOK = {
       "id": "05",
       "number": "Chapter Five",
       "title": "The Parasitic Cycle",
+      "image": "plates/03_parasitic_cycle_a2.jpg",
       "paragraphs": [
         "He walked all that night and slept for a few hours at dawn in the lee of a round bale at the edge of a field, with the blade under his head in its canvas and his coat over him, and woke with frost on the coat and the sun on his face and a cow looking at him over the wire.",
         "She was a big red cow with a white face and a tag in one ear, and she stood perfectly still and looked at him with her jaw going, slowly, sideways, the way cows chew, as if she had been sent to make a report and was in no hurry to make it.",
@@ -1126,6 +1131,7 @@ window.BOOK = {
       "id": "06",
       "number": "Chapter Six",
       "title": "The False Lights",
+      "image": "plates/09_counterfeit_flame_a2.jpg",
       "paragraphs": [
         "On an evening at the end of that summer, almost two weeks before any of this, a woman named Mara pulled her car onto the shoulder of a county road and sat there with the engine running and did not know why.",
         "She had worked a double. Sixteen hours on the night line, the long room with the low ceiling and the hum of the boards, and the voices coming in one after another through the headset. A man whose wife had stopped breathing. A girl on a dark road with a flat and something walking in the field beside her. A grain truck over on its side with the driver pinned and talking, talking, the whole time, about his dog. She had talked each of them through it. That was the job. You stayed on the line. You kept your voice low and flat and certain. You told them the truck was coming, the water was coming, the help was coming, and you told them what to do with their hands until it came. She was very good at it. She had been doing it eleven years.",
@@ -1322,6 +1328,7 @@ window.BOOK = {
       "id": "07",
       "number": "Chapter Seven",
       "title": "The Beast and the Black Cave",
+      "image": "plates/04_beast_black_cave_a2.jpg",
       "paragraphs": [
         "The hills began two days west of the hall.",
         "They came up out of the plain all at once, the way a coastline comes up out of the sea: first a line of low blue humps on the horizon, then broken ground, then the road climbing among bluffs of pale stone with cedars clinging to their faces and dry creeks winding at their feet. The highway went around them. He left the highway. He took a gravel road that went in among them, and then a two-track that left the gravel, and then nothing, a cattle path along the foot of a bluff, and he followed it because it went west and because something in him wanted to be off the roads where the trucks went by.",
@@ -1541,6 +1548,7 @@ window.BOOK = {
       "id": "08",
       "number": "Chapter Eight",
       "title": "The Black Cave, Continued",
+      "image": "plates/04_beast_black_cave_paradym_a2.jpg",
       "paragraphs": [
         "He had walked a long way, and then he was not.",
         "There was no cave in the dark. There was no stone under him, no water, no cold. There was no him, at first, the way he had always known himself: no hips that hurt on the step down from the cab, no hands, no weight of a blade along his spine. There was only the light.",
@@ -1790,6 +1798,7 @@ window.BOOK = {
       "id": "09",
       "number": "Chapter Nine",
       "title": "The Ranch as Ark",
+      "image": "plates/05_mammoth_on_the_ranch_a2.jpg",
       "paragraphs": [
         "The truck that stopped for them on the highway was a blue cab with a chrome bulldog on the hood.",
         "He knew it before it stopped. He had parked beside it at a hundred truck stops over twenty years, at three in the morning, under the sodium lights, and never once spoken to the man who drove it. Now it came up out of the west with its flashers on and pulled onto the shoulder ahead of them in a long hiss of air brakes, and the passenger door swung open, and a heavy man with a white beard leaned across the seat and looked down at him.",
@@ -2059,6 +2068,7 @@ window.BOOK = {
       "id": "10",
       "number": "Chapter Ten",
       "title": "The Buried Flame",
+      "image": "plates/06_buried_flame_a2.jpg",
       "paragraphs": [
         "Mara saw it first, the way she always did.",
         "It was the end of the tenth week, a clear night after three days of rain, and she had gone up to the high ground after supper the way she did most nights now, to stand at the fence on the north ridge and read the sky.",
@@ -2376,6 +2386,7 @@ window.BOOK = {
       "id": "11",
       "number": "Chapter Eleven",
       "title": "The Counterfeit Comes to the Field",
+      "image": "plates/sb3_panel_23_a2.jpg",
       "paragraphs": [
         "The seam opened on the ninth night of the worst of it, and Tobias was the one at the gate to see it.",
         "He had not slept. Nobody had, much. The rain had stopped being rain somewhere in the sixth week and become the weather, the thing the world was made of now, gray and steady and endless, and the creek was a river and the river on the south boundary was a lake the color of brick, and the lights in town had been out for nineteen days. He was standing at the open gate at three in the morning in a slicker with water running off the brim of his hat, beside Zac in his folding chair under the lamp, counting.",
@@ -2655,6 +2666,7 @@ window.BOOK = {
       "id": "12",
       "number": "Chapter Twelve",
       "title": "We Remember. We Choose. We Build.",
+      "image": "plates/07_we_remember_a2.jpg",
       "paragraphs": [
         "In the morning the water was still there, and the fire was out, and one of them was gone.",
         "That was all the dawn knew. It came up gray and then pale over the wide water to the east, the way it had come up every morning of the world, and it did not know anything else.",
@@ -2964,6 +2976,7 @@ window.BOOK = {
       "id": "13",
       "number": "Acknowledgments",
       "title": "",
+      "image": "plates/08_the_margin_a2.jpg",
       "paragraphs": [
         "I came up with the idea for this story in 2002. This is a long time in the making. A lot of people walked parts of this road with me before I knew where it led, most of them without ever knowing it. I want to thank them here.",
         "James Bonnet, whose Stealing Fire from the Gods and its model, The Golden Paradigm, are the root of what I started calling the Golden Paradym in 2002. The nascent ego and the holdfast, the upside and the downside of the passage, the archetypes of the creative unconscious, the dynamic cycle, and the hero’s and the antihero’s journey all came to me first through his pages. I had forgotten where I learned them. The book on my shelf had not.",
