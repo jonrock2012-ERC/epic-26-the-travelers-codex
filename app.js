@@ -31,6 +31,31 @@
     }
   }
 
+  // Locked 25 Oct 2026. Exact words — do not paraphrase.
+  var HOME_SUMMARY = {
+    title: "Epic 26: The Traveler's Codex",
+    author: "Jon Rock Carter \u00b7 The Alchemist",
+    paragraphs: [
+      "For thirty-three years he has driven the night roads, carrying two things he cannot explain: a string of small dark bells that have never made a sound, and an unopened letter in a woman's hand.",
+      "Then one evening he leaves his load and walks. The sky splits, the bells ring, and he remembers a wall above a rising sea, a city's last day, and his own voice shouting warnings that saved no one.",
+      "Others are remembering too. They failed together once. Now the old breaking is returning.",
+      "This time they will not stand on a wall. They will open a gate and set a table."
+    ],
+    tagline: "A mythic novel about memory, failure, and the long road home."
+  };
+
+  function homeSummary() {
+    var h = '<div class="home-summary">';
+    h += '<p class="sum-title">' + esc(HOME_SUMMARY.title) + '</p>';
+    h += '<p class="sum-author">' + esc(HOME_SUMMARY.author) + '</p>';
+    HOME_SUMMARY.paragraphs.forEach(function (p) {
+      h += '<p>' + esc(p) + '</p>';
+    });
+    h += '<p class="sum-tagline">' + esc(HOME_SUMMARY.tagline) + '</p>';
+    h += '</div>';
+    return h;
+  }
+
   function welcome() {
     setNav('welcome');
     document.title = BOOK.title + ' — ' + BOOK.subtitle;
@@ -39,6 +64,7 @@
     h += '<p class="tag">A novel</p>';
     h += '<h1 id="wt">' + esc(BOOK.title) + '</h1>';
     h += '<p class="sub">' + esc(BOOK.subtitle) + '</p>';
+    h += homeSummary();
     h += '<div class="cta">';
     h += '<a class="btn" href="#ch/01">Begin reading</a>';
     h += '<a class="btn alt" href="#contents">Contents</a>';

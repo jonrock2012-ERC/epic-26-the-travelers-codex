@@ -39,6 +39,6 @@ CONTENT
   D15 body is not cut for those rules.
 
 ROUTES
-  #welcome     cover splash + Begin reading
+  #welcome     cover splash, locked home summary, Begin reading
   #contents    table of contents
   #ch/01 … #ch/13   chapter / acknowledgments view
