@@ -17,6 +17,25 @@ OUT = ROOT / "data.js"
 
 LINE_RE = re.compile(r"^(\d+)\|(.*)$")
 
+# Locked 25 Oct 2026. One A2 file per chapter, relative to the reader root.
+# Chapters 03, 04, and 11 use storyboard panels: no dedicated plate
+# (11 keeps a unique field beat; the counterfeit plate stays on 06).
+CHAPTER_IMAGES = {
+    "01": "plates/01_dust_on_the_road_a2.jpg",
+    "02": "plates/02_sky_that_broke_a2.jpg",
+    "03": "plates/sb3_panel_06_a2.jpg",
+    "04": "plates/sb3_panel_07_a2.jpg",
+    "05": "plates/03_parasitic_cycle_a2.jpg",
+    "06": "plates/09_counterfeit_flame_a2.jpg",
+    "07": "plates/04_beast_black_cave_a2.jpg",
+    "08": "plates/04_beast_black_cave_paradym_a2.jpg",
+    "09": "plates/05_mammoth_on_the_ranch_a2.jpg",
+    "10": "plates/06_buried_flame_a2.jpg",
+    "11": "plates/sb3_panel_23_a2.jpg",
+    "12": "plates/07_we_remember_a2.jpg",
+    "13": "plates/08_the_margin_a2.jpg",
+}
+
 
 def strip_line(raw: str) -> str:
     m = LINE_RE.match(raw)
@@ -62,12 +81,16 @@ def parse_chapter(path: Path, chap_id: str) -> dict:
 
     paragraphs = texts[i:]  # keep blanks and * * *
 
-    return {
+    chapter = {
         "id": chap_id,
         "number": label,
         "title": title,
-        "paragraphs": paragraphs,
     }
+    image = CHAPTER_IMAGES.get(chap_id)
+    if image:
+        chapter["image"] = image
+    chapter["paragraphs"] = paragraphs
+    return chapter
 
 
 def main() -> None:

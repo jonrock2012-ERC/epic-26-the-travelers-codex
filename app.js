@@ -139,6 +139,10 @@
     } else {
       h += '<h1>' + esc(c.number) + '</h1>';
     }
+    if (c.image) {
+      var alt = c.title || c.number || 'Chapter';
+      h += '<img class="chapter-hero" src="' + esc(c.image) + '" alt="' + esc(alt) + '">';
+    }
     h += '<div class="body">' + renderBody(c.paragraphs || []) + '</div>';
     h += '<nav class="navrow" aria-label="Chapter navigation">';
     if (prev) {
